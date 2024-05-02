@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 251, 0, 0.438);
+    font-family: Sofia, sans-serif;
+}
+
+ul{
+    position: absolute;
+    width: 150px;
+    height:37.5px;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li{
+    list-style: none;
+    position: inherit;
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    transform: rotate(45deg);
+    margin: -100px;
+    overflow: hidden;
+}
+
+ul li.ketupat1{
+    top: 0;
+    left: 100%;
+    background-color: green;
+}
+
+ul li.ketupat2{
+    top: 100%;
+    left: 75%;
+    background-color: rgb(138, 255, 4);
+}
+
+ul li.ketupat3{
+    top: 100%;
+    right: 75%;
+    background-color: rgb(138, 255, 4);
+}
+
+ul li.ketupat4{
+    top: 200%;
+    left: 100%;
+    background-color: green;
+}
+
+ul li.ketupat5{
+    top: 200%;
+    left: 50%;
+    background-color: green;
+}
+
+ul li.ketupat6{
+    top: 200%;
+    right: 50%;
+    background-color: green;
+}
+
+ul li.ketupat7{
+    top: 300%;
+    left: 75%;
+    background-color: rgb(138, 255, 4);
+}
+
+ul li.ketupat8{
+    top: 300%;
+    right: 75%;
+    background-color: rgb(138, 255, 4);
+}
+
+ul li.ketupat9{
+    bottom: 100%;
+    left: 100%;
+    background-color: green;
+}
+
+.text{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 10px;
+    font-style: italic;
+}
